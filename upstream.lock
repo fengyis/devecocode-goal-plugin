@@ -1,0 +1,9 @@
+repo: https://github.com/willytop8/OpenCode-goal-plugin
+commit: 2d3e97edeb6e1ecfbe21b193616987df335f047f
+version: 0.6.5
+license: MIT (LICENSE 已随源码 vendor)
+vendored:
+  src/*.js index.d.ts LICENSE -> template/.deveco/plugin/devecocode-goal-plugin/
+  test/*.test.js -> test/ (仅改 ../src/ import 前缀)
+date: 2026-07-16
+diff 上游: git clone 上游、checkout 该 commit，然后 diff -r src/ 与 vendor 目录
